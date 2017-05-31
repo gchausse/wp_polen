@@ -96,6 +96,11 @@ section {
                 height: 100px;
                 align-self: center;
                 margin-left: 1em;
+                transition: 0.5s ease;
+
+                &:hover {
+                    transform: rotate(-360deg);
+                }
             }
 
             .feature-desc {
@@ -174,7 +179,7 @@ header {
             }
             ul {
                 display: none;
-                position: fixed;
+                position: absolute;
                 li {
                     background-color: #535353;
                     width: 100%;

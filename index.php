@@ -13,16 +13,20 @@
  */
 
 $features = get_posts(array(
-    'category' => 2
+    'category' => 2,
+    'order' => 'ASC'
 ));
 $companiesNews = get_posts(array(
-    'category' => 3
+    'category' => 3,
+    'order' => 'ASC'
 ));
 $ticNews = get_posts(array(
-    'category' => 4
+    'category' => 4,
+    'order' => 'ASC'
 ));
 $teleworkNews = get_posts(array(
-    'category' => 5
+    'category' => 5,
+    'order' => 'ASC'
 ));
 get_header();
 ?>
