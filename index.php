@@ -38,11 +38,46 @@ get_header();
     </section>
     <nav id="main-nav">
         <ul>
-            <li><a href="#">Présentation</a></li>
-            <li><a href="#">Pépinière</a></li>
-            <li><a href="#">Centre de ressources</a></li>
-            <li><a href="#">Télécentre</a></li>
-            <li><a href="#">Media</a></li>
+            <li><a href="#">Présentation</a>
+                <ul>
+                    <li><a href="#">le parc technologique</a></li>
+                    <li><a href="#">equipement</a></li>
+                    <li><a href="#">equipe</a></li>
+                    <li><a href="#">L'animations et les partenaires</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Pépinière</a>
+                <ul>
+                    <li><a href="#">l'accompagnement</a></li>
+                    <li><a href="#">locaux proposé aux entreprises</a></li>
+                    <li><a href="#">L’offre de services de POLeN</a></li>
+                    <li><a href="#">Les entreprises hébergées à POLeN</a></li>
+                    <li><a href="#">Actus entreprises innovantes</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Centre de ressources</a>
+                <ul>
+                    <li><a href="#">Les services du centre de ressources</a></li>
+                    <li><a href="#">Club e-commerce48</a></li>
+                    <li><a href="#">Journée e-tourisme 2013</a></li>
+                    <li><a href="#">Actus TIC en entreprise</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Télécentre</a>
+                <ul>
+                    <li><a href="#">Le Réseau SoLozère</a></li>
+                    <li><a href="#">Télécentre de POLeN</a></li>
+                    <li><a href="#">Actus télétravail</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Media</a>
+                <ul>
+                    <li><a href="#">Archives du sIte</a></li>
+                    <li><a href="#">Visite virtuelle</a></li>
+                    <li><a href="#">Photographies</a></li>
+                    <li><a href="#">Webcam</a></li>
+                </ul>
+            </li>
             <li><a href="#">Agenda</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
