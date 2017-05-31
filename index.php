@@ -57,7 +57,7 @@
             </div>
         </article>
     </section>
-    <section id="actu">
+    <section id="news">
         <section>
             <h2>Actus entreprises innovantes</h2>
             <article>
