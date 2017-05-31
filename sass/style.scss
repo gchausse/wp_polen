@@ -91,6 +91,10 @@ section {
             width: 33%;
             display: flex;
 
+            a:hover {
+                color: inherit;
+            }
+
             img {
                 width: 100px;
                 height: 100px;
@@ -122,6 +126,10 @@ section {
 
         section {
             width: 30%;
+
+            a {
+                color: inherit;
+            }
             article {
                 border-bottom: 1px solid rgb(238, 238, 238);
                 padding: 1em 0;

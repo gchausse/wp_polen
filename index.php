@@ -54,7 +54,7 @@ get_header();
                 <div class="feature-desc">
                     <h2><a href="#"><?php echo $feature->post_title; ?></a></h2>
                     <p><?php echo $feature->post_excerpt; ?></p>
-                    <a href="#">Infos >></a>
+                    <a href="<?php echo get_permalink($feature) ?>">Infos >></a>
                 </div>
             </article>
         <?php } ?>
@@ -64,8 +64,8 @@ get_header();
             <h2>Actus entreprises innovantes</h2>
             <?php foreach($companiesNews as $new) {?>
                 <article>
-                    <?php echo get_the_post_thumbnail($new); ?>
-                    <p><?php echo $new->post_title; ?></p>
+                    <a href="<?php echo get_permalink($feature) ?>"> <?php echo get_the_post_thumbnail($new); ?></a>
+                    <a href="<?php echo get_permalink($feature) ?>"><p><?php echo $new->post_title; ?></p></a>
                 </article>
             <?php } ?>
         </section>
@@ -74,8 +74,8 @@ get_header();
             <h2>Actus usages des tic en entreprise</h2>
             <?php foreach($ticNews as $new) { ?>
                 <article>
-                    <?php echo get_the_post_thumbnail($new); ?>
-                    <p><?php echo $new->post_title; ?></p>
+                    <a href="<?php echo get_permalink($feature) ?>"><?php echo get_the_post_thumbnail($new); ?></a>
+                    <a href="<?php echo get_permalink($feature) ?>"><p><?php echo $new->post_title; ?></p></a>
                 </article>
             <?php } ?>
         </section>
@@ -84,8 +84,8 @@ get_header();
             <h2>Actus télétravail</h2>
             <?php foreach($teleworkNews as $new) { ?>
                 <article>
-                    <?php echo get_the_post_thumbnail($new); ?>
-                    <p><?php echo $new->post_title; ?></p>
+                    <a href="<?php echo get_permalink($feature) ?>"><?php echo get_the_post_thumbnail($new); ?></a>
+                    <a href="<?php echo get_permalink($feature) ?>"><p><?php echo $new->post_title; ?></p></a>
                 </article>
             <?php } ?>
         </section>

@@ -1,5 +1,5 @@
 <?php
-function polen_enqueue_style (){
+function polen_enqueue_style() {
     wp_enqueue_style('polen_style',get_stylesheet_uri());
 }
 
