@@ -84,6 +84,7 @@ section {
     width: 100%;
 
     &#features{
+        padding: 4em 0;
         display: flex;
 
         article {
@@ -123,6 +124,11 @@ section {
                 img {
                     width: 100%;
                     filter: grayscale(100%);
+                    opacity: 0.75;
+                }
+
+                img:hover {
+                    opacity: 1;
                 }
             }
         }
@@ -144,7 +150,8 @@ header {
     box-shadow: 0 1px 1px #9c9c9c;
     nav {
         max-height: 45px;
-        padding: 0 10em;
+        padding-left: 7em;
+        padding-right: 15em;
         ul  {
             display:flex;
             list-style: none;
