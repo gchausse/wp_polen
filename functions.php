@@ -4,7 +4,5 @@ function polen_enqueue_style (){
 }
 
 add_action( 'wp_enqueue_scripts', 'polen_enqueue_style' );
-
-
-
- ?>
+add_theme_support('post-thumbnails');
+?>
