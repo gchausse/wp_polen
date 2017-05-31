@@ -13,7 +13,7 @@
  */
  get_header();
 ?>
-<div class="container">
+<main>
     <section id="banner">
         <img src="http://polen-mende.com/wp-content/uploads/2013/05/polen.jpg" alt="" class="slider-img">
         <img src="http://polen-mende.com/wp-content/uploads/2013/02/cropped-cropped-cropped-polen21.png" alt="" class="site-img">
@@ -105,7 +105,7 @@
             </article>
         </section>
     </section>
-</div>
- <?php
- get_footer();
-  ?>
+</main>
+<?php
+get_footer();
+?>
