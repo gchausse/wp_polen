@@ -2,3 +2,83 @@ body {
     background: url('http://polen-mende.com/wp-content/uploads/2013/05/pat.png');
     background-color: #f0f0f0;
 }
+header {
+		margin-top : -22px;
+		width: 100%;
+		// position: relative;
+		background: #4066aa;
+        background: -moz-linear-gradient(#5588e3, #4066aa);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #5588e3),color-stop(1, #4066aa));
+        background: -webkit-linear-gradient(#4066aa, #5588e3);
+        background: -o-linear-gradient(#4066aa, #5588e3);
+        background: -ms-linear-gradient(#4066aa, #5588e3);
+        background: linear-gradient(#4066aa, #5588e3);
+              -moz-box-shadow: 0 1x 1px #9c9c9c;
+        -webkit-box-shadow: 0 1px 1px #9c9c9c;
+        box-shadow: 0 1px 1px #9c9c9c;
+        nav {
+            max-height: 45px;
+            ul  {
+                display:flex;
+                list-style: none;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                li:hover ul{
+                    display: flex;
+                    flex-direction: column;
+                }
+                li:nth-child(2){
+                    flex-grow: 1;
+                    margin-bottom: 15px;
+                }
+                li a {
+                    color: white;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font:bold 12px/25px Arial, Helvetica;
+                }
+                ul {
+                    display: none;
+                    position: fixed;
+                    li {
+                        background-color: #535353;
+                        width: 100%;
+                        border-radius: 2px;
+                        box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+                        margin-bottom: 1px !important;
+                    }
+                    li:hover {
+                        background-color: #797979;
+                    }
+                    a {
+                        display: block;
+                        padding: 0.5em;
+                        width:100%;
+                        margin-left: 2em;
+                        margin-right: 1em;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+}
+footer {
+    display: grid;
+    grid-template-areas: "a b"
+                         "c d";
+
+    section:first-child{
+        grid-area: a;
+        min-height: 20em;
+    }
+    section:nth-child(2){
+        grid-area: b;
+    }
+    section:nth-child(3){
+        grid-area: c;
+    }
+    section:last-child{
+        grid-area: d;
+    }
+}
