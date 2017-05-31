@@ -201,15 +201,43 @@ footer {
 
     section:first-child{
         grid-area: a;
-        min-height: 20em;
+        min-height: 15em;
     }
     section:nth-child(2){
         grid-area: b;
+        p {
+            font-size: 11px;
+            text-transform: capitalize;
+        }
     }
     section:nth-child(3){
         grid-area: c;
+        display: flex;
+        flex-direction: row;
+        img {
+            max-height: 150px;
+        }
+        h4 {
+            color: rgb(50, 50, 50);
+            font-size: 14px;
+        }
+        li {
+            font-size: 11px;
+        }
+
     }
     section:last-child{
         grid-area: d;
     }
+    h3 {
+        color: rgb(58, 109, 176);
+        text-transform: uppercase;
+    }
+    form {
+        margin-top: 6em;
+        button {
+            margin-left: 2em;
+        }
+    }
+
 }

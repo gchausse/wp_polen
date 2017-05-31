@@ -9,17 +9,19 @@
     </section>
     <section>
         <h3>agenda</h3>
-        <p>Auncun Evènement</p>
+        <p>Auncun évènement</p>
     </section>
     <section>
         <img src="http://polen-mende.com/images/polenfoot.jpg" alt="">
-        <h4>Pole Lozérien d'economie Numerique</h4>
-        <ul>
-            <li>Rue du Gévaudan</li>
-            <li>48000 MENDE</li>
-            <li>tel: 04 66 45 33 00</li>
-            <li>Email: contact@lozere-developpement.com </li>
-        </ul>
+        <div>
+            <h4>Pole Lozérien d'economie Numerique</h4>
+            <ul>
+                <li>Rue du Gévaudan</li>
+                <li>48000 MENDE</li>
+                <li>tel: 04 66 45 33 00</li>
+                <li>Email: contact@lozere-developpement.com </li>
+            </ul>
+        </div>
     </section>
     <section>
         <a href="http://polen-mende.com/presentation-de-parc-lozerien-deconomie-numerique/les-partenaires/"></a>
